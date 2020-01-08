@@ -18,8 +18,8 @@ This implementation provides an example procedure of training and validating any
 * [NVIDIA-DALI](https://github.com/NVIDIA/DALI) (in development, not recommended)
 ## Dataset
 Download the ImageNet dataset and move validation images to labeled subfolders.
-To do this, you can use the following script: https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh
-
+~~To do this, you can use the following script: https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh~~
+imagenet data is processed [as described here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md#download-the-imagenet-dataset)
 # Pretrained models
 The pretrained MobileNetV2 1.0 achieves **72.192% top-1 accuracy** and 90.534% top-5 accuracy on ImageNet validation set, which is higher than the statistics reported in the original paper and official [TensorFlow implementation](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet).
 
